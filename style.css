@@ -169,3 +169,37 @@ main {
 .hidden {
   display: none;
 }
+@media only screen and (max-width: 765px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 613px) {
+  .player {
+    flex: 40%;
+    padding: 4rem;
+  }
+  html {
+    font-size: 40%;
+  }
+  .current {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 533px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media only screen and (max-width: 407px) {
+  .player {
+    padding: 2rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+
+  .score {
+    font-size: 4rem;
+  }
+}
