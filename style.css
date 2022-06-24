@@ -57,12 +57,12 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: black;
+  color: #333;
   margin-bottom: auto;
 }
 
 .player--active {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(141, 133, 18, 0.4);
 }
 .player--active .name {
   font-weight: 700;
@@ -162,7 +162,10 @@ main {
   font-weight: 700;
   color: #c7365f;
 }
-
+.player--winner .score {
+  font-weight: 700;
+  color: #c7365f;
+}
 .hidden {
   display: none;
 }
